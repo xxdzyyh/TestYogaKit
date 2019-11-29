@@ -7,4 +7,6 @@ target 'TestYogaKit' do
 
   # Pods for TestYogaKit
   pod 'YogaKit', '~> 1.7'
+  pod 'Masonry'
+  
 end

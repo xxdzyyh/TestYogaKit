@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A095DCC6237657170003631D /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = A095DCC5237657160003631D /* 1.png */; };
+		A0B703A323824A940091D921 /* bd_logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B703A223824A930091D921 /* bd_logo1.png */; };
 		BA9C462DF262F87831B2325F /* Pods_TestYogaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F5730C505EA3B9F390B512 /* Pods_TestYogaKit.framework */; };
 		D45B1E8B234F21930041C2C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D45B1E8A234F21930041C2C8 /* AppDelegate.m */; };
 		D45B1E8E234F21930041C2C8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D45B1E8D234F21930041C2C8 /* SceneDelegate.m */; };
@@ -19,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		23F5730C505EA3B9F390B512 /* Pods_TestYogaKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestYogaKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A095DCC5237657160003631D /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		A0B703A223824A930091D921 /* bd_logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bd_logo1.png; sourceTree = "<group>"; };
 		A2068B45CD316C7591600F8A /* Pods-TestYogaKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestYogaKit.debug.xcconfig"; path = "Target Support Files/Pods-TestYogaKit/Pods-TestYogaKit.debug.xcconfig"; sourceTree = "<group>"; };
 		BA2C0C7819DF77F130E05851 /* Pods-TestYogaKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestYogaKit.release.xcconfig"; path = "Target Support Files/Pods-TestYogaKit/Pods-TestYogaKit.release.xcconfig"; sourceTree = "<group>"; };
 		D45B1E86234F21930041C2C8 /* TestYogaKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestYogaKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,7 +65,6 @@
 				A2068B45CD316C7591600F8A /* Pods-TestYogaKit.debug.xcconfig */,
 				BA2C0C7819DF77F130E05851 /* Pods-TestYogaKit.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -86,6 +89,8 @@
 		D45B1E88234F21930041C2C8 /* TestYogaKit */ = {
 			isa = PBXGroup;
 			children = (
+				A095DCC5237657160003631D /* 1.png */,
+				A0B703A223824A930091D921 /* bd_logo1.png */,
 				D45B1E89234F21930041C2C8 /* AppDelegate.h */,
 				D45B1E8A234F21930041C2C8 /* AppDelegate.m */,
 				D45B1E8C234F21930041C2C8 /* SceneDelegate.h */,
@@ -162,6 +167,8 @@
 			files = (
 				D45B1E99234F21960041C2C8 /* LaunchScreen.storyboard in Resources */,
 				D45B1E96234F21960041C2C8 /* Assets.xcassets in Resources */,
+				A0B703A323824A940091D921 /* bd_logo1.png in Resources */,
+				A095DCC6237657170003631D /* 1.png in Resources */,
 				D45B1E94234F21930041C2C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
